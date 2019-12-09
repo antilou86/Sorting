@@ -8,7 +8,7 @@ def selection_sort( arr ):
         # (hint, can do in 3 loc) 
              
 
-
+         
 
         # TO-DO: swap
 
