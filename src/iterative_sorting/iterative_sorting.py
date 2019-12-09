@@ -17,7 +17,20 @@ def selection_sort( arr ):
 
 # TO-DO:  implement the Bubble Sort function below
 def bubble_sort( arr ):
-
+    #get length
+    length = len(arr)
+    #set iteration to length
+    for item in range(length):
+        #create a variables to track swaps and array positions
+        swap_count = False
+        #iterate through array starting at the first element
+        for i in range(0, length - item - 1):
+            #if item on the lhs is bigger, swap, and update counters
+            if arr[i] > arr[i + 1]:
+                swap_count = True
+                arr[i], arr[i + 1] = arr[i + 1], arr[i]
+        if swap_count != True:
+            break
     return arr
 
 
