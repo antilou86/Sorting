@@ -56,6 +56,7 @@ So you decide to break this insane task up into more manageable pieces. First, y
    (a single element cannot be "out of order")
 3. Start merging your single lists of one element together into larger, sorted sets
 4. Repeat step 3 until the entire data set has been reassembled
+
 ```
 
 
